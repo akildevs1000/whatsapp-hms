@@ -2,7 +2,7 @@ const express = require("express");
 const wbm = require("./src/index");
 
 const app = express();
-const PORT = 4000;
+const PORT = 7733;
 
 // Route to send a WhatsApp message
 app.get("/send-message", async (req, res) => {
